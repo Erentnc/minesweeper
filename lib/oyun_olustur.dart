@@ -101,7 +101,7 @@ class OyunOlustur extends StatelessWidget {
                   width: 300,
                   child: OutlinedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, "/hasbiolusturTarla");
+                      Navigator.pushNamed(context, "/ozelolusturTarla");
                     },
                     style: OutlinedButton.styleFrom(
                         textStyle: TextStyle(
@@ -115,7 +115,7 @@ class OyunOlustur extends StatelessWidget {
                                 BorderRadius.all(Radius.circular(10))),
                         backgroundColor: Colors.white,
                         foregroundColor: Colors.blue.shade400),
-                    child: Text("HASBİ"),
+                    child: Text("Özel"),
                   ),
                 ),
                 SizedBox(

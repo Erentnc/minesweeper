@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mayin_tarlasi/seviye/hasbi.dart';
+import 'package:mayin_tarlasi/seviye/ozel.dart';
 import 'package:mayin_tarlasi/seviye/kolay.dart';
 import 'package:mayin_tarlasi/mayin_home_page.dart';
 import 'package:mayin_tarlasi/seviye/orta.dart';
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         "/kolayTarla": (context) => KolayTarla(),
         "/ortaTarla": (context) => OrtaTarla(),
         "/zorTarla": (context) => ZorTarla(),
-        "/hasbiolusturTarla": (context) => HasbiOlustur(),
+        "/ozelolusturTarla": (context) => OzelOlustur(),
       },
     );
   }

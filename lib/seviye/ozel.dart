@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:mayin_tarlasi/seviye/hasbi_oyna.dart';
+import 'package:mayin_tarlasi/seviye/ozel_oyna.dart';
 
-class HasbiOlustur extends StatefulWidget {
-  const HasbiOlustur({super.key});
+class OzelOlustur extends StatefulWidget {
+  const OzelOlustur({super.key});
 
   @override
-  State<HasbiOlustur> createState() => _HasbiOlusturState();
+  State<OzelOlustur> createState() => _OzelOlusturState();
 }
 
-class _HasbiOlusturState extends State<HasbiOlustur> {
+class _OzelOlusturState extends State<OzelOlustur> {
   final List<int> _mayinSayilari = [10, 20, 30, 40, 50];
   int secilenMayinSayisi = 10;
 
@@ -65,7 +65,7 @@ class _HasbiOlusturState extends State<HasbiOlustur> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => HasbiTarla(
+                          builder: (context) => OzelTarla(
                             mineCount: secilenMayinSayisi,
                           ),
                         ),
@@ -83,7 +83,7 @@ class _HasbiOlusturState extends State<HasbiOlustur> {
                                 BorderRadius.all(Radius.circular(10))),
                         backgroundColor: Colors.white,
                         foregroundColor: Colors.blue.shade400),
-                    child: Text("HASBİ BAŞLAT"),
+                    child: Text("ÖZEL BAŞLAT"),
                   ),
                 ),
                 SizedBox(

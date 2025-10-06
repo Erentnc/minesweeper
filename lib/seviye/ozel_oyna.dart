@@ -2,25 +2,25 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:mayin_tarlasi/mayin_home_page.dart';
 
-class HasbiTarla extends StatelessWidget {
+class OzelTarla extends StatelessWidget {
   final int mineCount;
-  const HasbiTarla({super.key, required this.mineCount});
+  const OzelTarla({super.key, required this.mineCount});
 
   @override
   Widget build(BuildContext context) {
-    return HasbiMayin(mineCount: mineCount);
+    return OzelMayin(mineCount: mineCount);
   }
 }
 
-class HasbiMayin extends StatefulWidget {
+class OzelMayin extends StatefulWidget {
   final int mineCount;
-  const HasbiMayin({super.key, required this.mineCount});
+  const OzelMayin({super.key, required this.mineCount});
 
   @override
-  HasbiMayinState createState() => HasbiMayinState();
+  OzelMayinState createState() => OzelMayinState();
 }
 
-class HasbiMayinState extends State<HasbiMayin> {
+class OzelMayinState extends State<OzelMayin> {
   static const int gridSize = 12;
   late int mineCount;
 
@@ -257,7 +257,7 @@ class HasbiMayinState extends State<HasbiMayin> {
             child: Column(
               children: [
                 Text(
-                  "Seviye: HASBİ TARZINDA ZOR",
+                  "Seviye: Özel",
                   style: TextStyle(fontSize: 24),
                 ),
                 Text(
