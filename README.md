@@ -90,16 +90,6 @@ Projeyi kendi bilgisayarında çalıştırmak için aşağıdaki adımları izle
 
 
 
-## 🧪 Testler
-
-Testleri çalıştırmak için:
-
-```bash
-flutter test
-```
-
----
-
 ## 🤝 Katkıda Bulunma
 
 1. Fork oluşturun
